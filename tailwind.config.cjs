@@ -4,7 +4,8 @@ const config = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				grupo: "url('/grupo.jpg')"
+				grupo: "url('/grupo.jpg')",
+				bovedin: "url('/bovedin.jpg')"
 			},
 			typography: {
 				DEFAULT: {
