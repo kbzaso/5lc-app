@@ -1,8 +1,10 @@
 # example netlify.toml
-[build]
+
+  [build]
   command = "npm run build"
   functions = "netlify/functions"
   publish = "build"
+
 
 [dev]
   port = 1234
