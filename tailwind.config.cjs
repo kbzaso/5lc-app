@@ -3,6 +3,9 @@ const config = {
 
 	theme: {
 		extend: {
+			backgroundImage: {
+				grupo: "url('/grupo.jpg')"
+			},
 			typography: {
 				DEFAULT: {
 					css: {
@@ -13,7 +16,33 @@ const config = {
 		}
 	},
 
-	plugins: [require('@tailwindcss/typography'), require('daisyui')]
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('daisyui'),
+		require('@tailwindcss/line-clamp')
+	],
+	daisyui: {
+		styled: true,
+		themes: [
+			{
+				mytheme: {
+					primary: '#fde047',
+					secondary: '#fdba74',
+					accent: '#f3f4f6',
+					neutral: '#1f2937',
+					'base-100': '#000',
+					info: '#3ABFF8',
+					success: '#2dd4bf',
+					warning: '#fb923c',
+					error: '#e11d48'
+				}
+			}
+		],
+		base: true,
+		utils: true,
+		logs: true,
+		rtl: false
+	}
 };
 
 module.exports = config;
