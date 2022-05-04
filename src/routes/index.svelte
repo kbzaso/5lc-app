@@ -4,7 +4,7 @@
 
 <div class="w-full md:w-9/12 lg:w-6/12 m-auto mt-10">
 	<div class="flex justify-center mb-6">
-		<img class="w-28" src="/logo5luchas.png" alt="Logotipo de 5 Luchas Clandestino" />
+		<img class="w-28" src="/logo.png" alt="Logotipo de 5 Luchas Clandestino" />
 	</div>
 	<div class="text-center">
 		<span class="text-xl text-accent">¡SIEMPRE BUENA ONDA!</span>

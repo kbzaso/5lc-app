@@ -43,7 +43,7 @@
 		</div>
 	</div>
 	<div class="flex justify-center mb-6">
-		<img class="w-28" src="/logo5luchas.png" alt="Logotipo de 5 Luchas Clandestino" />
+		<img class="w-28" src="/logo.png" alt="Logotipo de 5 Luchas Clandestino" />
 	</div>
 	<div class="text-center">
 		<span class="text-xl text-accent">Lanza confetti con un click</span>

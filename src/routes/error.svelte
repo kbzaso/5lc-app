@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	<div class="flex justify-center mb-6">
-		<img class="w-28" src="/logo5luchas.png" alt="Logotipo de 5 Luchas Clandestino" />
+		<img class="w-28" src="/logo.png" alt="Logotipo de 5 Luchas Clandestino" />
 	</div>
 	<div class="text-center">
 		<h1 class="mb-2 text-primary text-4xl font-bold">Te invitamos intentarlo una vez más 🙏</h1>
