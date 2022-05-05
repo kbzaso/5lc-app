@@ -1,3 +1,7 @@
+<script>
+	import analyticsTracking from '$lib/analytics';
+</script>
+
 <svelte:head>
 	<title>5LC - Bóveda 3.0</title>
 </svelte:head>
@@ -41,6 +45,7 @@
 </div>
 <div class="w-full md:w-9/12 lg:w-6/12 m-auto">
 	<a
+		on:click={analyticsTracking('flow-btn')}
 		class="flex justify-center mb-4"
 		href="
 	https://www.flow.cl/btn.php?token=qf7khk9"
