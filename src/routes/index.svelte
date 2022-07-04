@@ -1,5 +1,4 @@
 <script>
-	import Collapse from '../components/Collapse.svelte';
 	import Important from '../components/Important.svelte';
 </script>
 
@@ -9,7 +8,11 @@
 
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
 	<div class="hero-content flex-col lg:flex-row w-5/6">
-		<img src="/afiche-julio.jpg" class="sm:max-w-sm self-start rounded-lg shadow-2xl" />
+		<img
+			src="/afiche-julio.jpg"
+			alt="Afiche del evento"
+			class="sm:max-w-sm self-start rounded-lg shadow-2xl"
+		/>
 		<div>
 			<h1 class="text-5xl text-primary font-bold">No estamos muertos</h1>
 			<p class="pt-6">
