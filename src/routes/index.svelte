@@ -31,16 +31,12 @@
 			<Important />
 			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
 			<div class="grid md:grid-cols-2 gap-4">
-				<div class="tooltip" data-tip="Evento agotado">
-					<button class="btn-disabled btn btn-block">Pack todos los viernes</button>
-				</div>
-				<div class="tooltip" data-tip="Evento agotado">
-					<button class="btn btn-disabled btn-block">viernes 8 de julio</button>
-				</div>
-				<button
-					onclick="window.location.href='https://www.flow.cl/btn.php?token=sveehnm';"
-					class="btn btn-block">viernes 15 de julio</button
-				>
+				<button class="btn-disabled btn btn-block">Pack todos los viernes</button>
+
+				<button class="btn btn-disabled btn-block">viernes 8 de julio</button>
+
+				<button class="btn btn-block btn-disabled">viernes 15 de julio</button>
+
 				<button
 					onclick="window.location.href='https://www.flow.cl/btn.php?token=yfmdnxn';"
 					class="btn btn-block">viernes 22 de julio</button
