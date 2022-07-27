@@ -30,10 +30,7 @@
 			<p>Inicio de evento: 20:00 hrs.</p>
 			<Important />
 			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
-			<button
-				onclick="window.location.href='https://www.flow.cl/btn.php?token=uvhntwg';"
-				class="btn btn-block">viernes 29 de julio</button
-			>
+			<p class=" text-red-500">Entradas agotadas</p>
 		</div>
 	</div>
 </div>
