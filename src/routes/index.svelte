@@ -1,4 +1,5 @@
 <script>
+	import Important from '../components/Important.svelte';
 </script>
 
 <svelte:head>
@@ -6,20 +7,33 @@
 </svelte:head>
 
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
-	<div class="hero-content flex-col lg:flex-row w-4/6 text-xl">
+	<div class="hero-content flex-col lg:flex-row w-5/6">
+		<img
+			src="/afiche-julio.jpg"
+			alt="Afiche del evento"
+			class="sm:max-w-sm self-start rounded-lg shadow-2xl"
+		/>
 		<div>
-			<h1 class="text-5xl text-primary font-bold">Siempre buena onda</h1>
-			<p class="pt-6">En Julio demostramos que no estamos muertos ¡y de que manera! 🔥</p>
+			<h1 class="text-5xl text-primary font-bold uppercase">Pasamos agosto</h1>
 			<p class="pt-6">
-				La energía de la Bóveda se hizo sentir tal cómo en sus orígenes y queremos que eso se
-				mantenga. Con el fin de procurar un mejor servicio para todos, <span
-					class=" underline decoration-primary font-bold"
-					>no tendremos eventos hasta nuevo aviso</span
-				>, para así ocuparnos de aquellas consideraciones que harán de este un espacio más
-				profesional y seguro para todos.
+				Ya estamos casi casi, último viernes de agosto y ¡Que viernes! Ya que celebraremos 5 años
+				del inicio de esta locura, locura que nos ha llenado de alegrias, frustraciones, lesiónes,
+				cañas pero sobre todo de <span class="underline decoration-primary decoration-2"
+					>buena onda.</span
+				>
 			</p>
-			<p class="py-6">Gracias por todo su apoyo 💛</p>
-			<img class="w-32 mb-4" src="/logo.png" alt="Logotipo 5LC" />
+
+			<h2 class="text-lg font-bold mb-4 underline text-primary">Ubicación y horarios:</h2>
+			<p>¿Donde? en la Bóveda Secreta - San Antonio #705</p>
+			<p>Apertura de puertas: 19:15 hrs.</p>
+			<p>Inicio de evento: 20:00 hrs.</p>
+			<Important />
+			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
+			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
+			<button
+				onclick="window.location.href='https://www.flow.cl/btn.php?token=ajzvzpx';"
+				class="btn btn-primary">26 de agosto</button
+			>
 		</div>
 	</div>
 </div>
