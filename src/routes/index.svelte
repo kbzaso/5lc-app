@@ -9,7 +9,7 @@
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
 	<div class="hero-content flex-col lg:flex-row w-5/6">
 		<img
-			src="/afiche-julio.jpg"
+			src="/afiche.png"
 			alt="Afiche del evento"
 			class="sm:max-w-sm self-start rounded-lg shadow-2xl"
 		/>
@@ -31,7 +31,7 @@
 			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
 			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
 			<button
-				onclick="window.location.href='https://www.flow.cl/btn.php?token=ajzvzpx';"
+				on:click={() => (window.location.href = 'https://www.flow.cl/btn.php?token=ajzvzpx')}
 				class="btn btn-primary">26 de agosto</button
 			>
 		</div>
