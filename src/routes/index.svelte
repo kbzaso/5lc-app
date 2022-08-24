@@ -18,7 +18,9 @@
 			<p class="pt-6">
 				Ya estamos casi casi, último viernes de agosto y ¡Que viernes! Ya que celebraremos 5 años
 				del inicio de esta locura, locura que nos ha llenado de alegrias, frustraciones, lesiónes,
-				cañas pero sobre todo de buena onda.
+				cañas pero sobre todo de <span class="underline decoration-primary decoration-2"
+					>buena onda.</span
+				>
 			</p>
 			<p class="py-6">
 				Porque no esta muerto el que lucha, seguimos intentandolo, contra viento y marea la bóveda
@@ -31,7 +33,10 @@
 			<p>Inicio de evento: 20:00 hrs.</p>
 			<Important />
 			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
-			<button class="btn btn-primary">26 de agosto</button>
+			<button
+				onclick="window.location.href='https://www.flow.cl/btn.php?token=ajzvzpx';"
+				class="btn btn-primary">26 de agosto</button
+			>
 			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
 		</div>
 	</div>
