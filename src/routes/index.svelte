@@ -30,11 +30,12 @@
 			<p>Inicio de evento: 20:00 hrs.</p>
 			<Important />
 			<h2 class="text-lg font-bold mb-4 underline text-primary">Adquiere tu entradas:</h2>
-			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
-			<button
+			<p class=" text-red-500">Entradas agotadas</p> 
+			<!-- <button
 				on:click={() => (window.location.href = 'https://www.flow.cl/btn.php?token=ajzvzpx')}
 				class="btn btn-primary w-full md:w-fit">26 de agosto</button
 			>
+			-->
 		</div>
 	</div>
 </div>
