@@ -17,12 +17,14 @@
 			<h1 class="text-3xl md:text-5xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
 				Pasamos agosto
 			</h1>
-			<p class="py-6">
-				Ya estamos casi, último viernes de agosto y ¡Qué viernes! Ya que celebraremos 5 años del
-				inicio de esta locura, locura que nos ha llenado de alegrías, frustraciones, lesiones, cañas
-				pero sobre todo de <span class="underline decoration-primary decoration-2">buena onda.</span
-				>
-			</p>
+			<iframe
+				class="w-full md:aspect-video aspect-square py-4"
+				src="https://www.youtube.com/embed/1kFBysE4Nck"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			/>
 
 			<h2 class="text-lg font-bold mb-4 underline text-green-400">Ubicación y horarios:</h2>
 			<p>¿Donde? en la Bóveda Secreta - San Antonio #705</p>
