@@ -14,8 +14,8 @@
 			class="sm:max-w-lg lg:self-start rounded-lg shadow-2xl"
 		/>
 		<div class="">
-			<h1 class="text-3xl md:text-5xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
-				Septiembre Fondeo'
+			<h1 class="text-3xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
+				Septiembre Fondeao'
 			</h1>
 			<iframe
 				class="w-full md:aspect-video aspect-square py-4"
