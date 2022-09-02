@@ -17,14 +17,12 @@
 			<h1 class="text-3xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
 				Septiembre Fondeao'
 			</h1>
-			<iframe
-				class="w-full md:aspect-video aspect-square py-4"
-				src="https://www.youtube.com/embed/1kFBysE4Nck"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			/>
+			<p class="my-4">
+				🍄El cucumelo es un hongo que crece fondeao' en la 💩 y llegando el calor de la primavera,
+				crece para brindar a los más osados, experiencias únicas. Septiembre lo pasamos fondeaos en
+				la Bóveda, buscando que el calor de su ambiente nos ayude a florecer y liberarnos de la 💩
+				que nos embarga en la semana.
+			</p>
 
 			<h2 class="text-lg font-bold mb-4 underline text-green-400">Ubicación y horarios:</h2>
 			<p>¿Donde? en la Bóveda Secreta - San Antonio #705</p>
