@@ -1,5 +1,6 @@
 <script>
 	import Important from '../components/Important.svelte';
+	import Carousel from '../components/Carousel.svelte';
 </script>
 
 <svelte:head>
@@ -8,11 +9,13 @@
 
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
 	<div class="hero-content flex-col lg:flex-row md:w-5/6 w-full">
-		<img
+		<!-- <img
 			src="/sept-fondeao.jpg"
 			alt="Afiche del evento"
 			class="sm:max-w-lg lg:self-start rounded-lg shadow-2xl"
-		/>
+		/> -->
+		<Carousel />
+
 		<div class="">
 			<h1 class="text-3xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
 				Septiembre Fondeao'
