@@ -1,6 +1,6 @@
 <script>
 	import Important from '../components/Important.svelte';
-	import Carousel from '../components/Carousel.svelte';
+	// import Carousel from '../components/Carousel.svelte';
 </script>
 
 <svelte:head>
@@ -9,19 +9,19 @@
 
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
 	<div class="hero-content flex-col lg:flex-row md:w-5/6 w-full">
-		<!-- <img
-			src="/sept-fondeao.jpg"
+		<img
+			src="/sept-fondeao-2.jpg"
 			alt="Afiche del evento"
 			class="sm:max-w-lg lg:self-start rounded-lg shadow-2xl"
-		/> -->
-		<Carousel />
+		/>
+		<!-- <Carousel /> -->
 
 		<div class="">
 			<h1 class="text-3xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
 				Septiembre Fondeao'
 			</h1>
 			<p class="my-4">
-				🍄El cucumelo es un hongo que crece fondeao' en la 💩 y llegando el calor de la primavera,
+				🍄 El cucumelo es un hongo que crece fondeao' en la 💩 y llegando el calor de la primavera,
 				crece para brindar a los más osados, experiencias únicas. Septiembre lo pasamos fondeaos en
 				la Bóveda, buscando que el calor de su ambiente nos ayude a florecer y liberarnos de la 💩
 				que nos embarga en la semana.
@@ -36,20 +36,12 @@
 			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
 			<div class="flex gap-3 flex-col md:flex-row">
 				<button
-					on:click={() => window.open('https://www.flow.cl/btn.php?token=soinoic', '_blank')}
-					class="btn btn-primary w-full md:w-fit">02 Sept</button
-				>
-				<button
 					on:click={() => window.open('https://www.flow.cl/btn.php?token=2n2qw9z', '_blank')}
 					class="btn btn-primary w-full md:w-fit">09 Sept</button
 				>
 				<button
 					on:click={() => window.open('https://www.flow.cl/btn.php?token=u17r5wx', '_blank')}
 					class="btn btn-primary w-full md:w-fit">15 Sept</button
-				>
-				<button
-					on:click={() => window.open('https://www.flow.cl/btn.php?token=cjf3jdb', '_blank')}
-					class="btn btn-primary w-full md:w-fit">TODAS LAS FECHAS</button
 				>
 			</div>
 		</div>
