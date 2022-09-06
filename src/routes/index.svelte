@@ -33,17 +33,9 @@
 			<p>Inicio de evento: 20:00 hrs.</p>
 			<Important />
 			<h2 class="text-lg font-bold mb-4 underline text-green-400">Adquiere tu entradas:</h2>
-			<!-- <p class=" text-red-500">Entradas agotadas</p> -->
-			<div class="flex gap-3 flex-col md:flex-row">
-				<button
-					on:click={() => window.open('https://www.flow.cl/btn.php?token=2n2qw9z', '_blank')}
-					class="btn btn-primary w-full md:w-fit">09 Sept</button
-				>
-				<button
-					on:click={() => window.open('https://www.flow.cl/btn.php?token=u17r5wx', '_blank')}
-					class="btn btn-primary w-full md:w-fit">15 Sept</button
-				>
-			</div>
+			<p class=" text-red-500">Entradas agotadas</p>
+			<!-- <div class="flex gap-3 flex-col md:flex-row">
+			</div> -->
 		</div>
 	</div>
 </div>
