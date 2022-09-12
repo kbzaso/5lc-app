@@ -8,34 +8,25 @@
 </svelte:head>
 
 <div class="w-fit mx-auto hero min-h-screen bg-base-200">
-	<div class="hero-content flex-col lg:flex-row md:w-5/6 w-full">
-		<img
-			src="/sept-fondeao-2.jpg"
-			alt="Afiche del evento"
-			class="sm:max-w-lg lg:self-start rounded-lg shadow-2xl"
-		/>
-		<!-- <Carousel /> -->
-
-		<div class="">
-			<h1 class="text-3xl text-green-400 font-bold uppercase mt-2 sm:hidden md:block">
-				Septiembre Fondeao'
+	<div class="hero-content md:w-4/6 w-full flex flex-col justify-start items-start">
+			<h1 class="text-3xl text-primary font-bold uppercase mt-2">
+				A las y los miembros de la bóveda:
 			</h1>
-			<p class="my-4">
-				🍄 El cucumelo es un hongo que crece fondeao' en la 💩 y llegando el calor de la primavera,
-				crece para brindar a los más osados, experiencias únicas. Septiembre lo pasamos fondeaos en
-				la Bóveda, buscando que el calor de su ambiente nos ayude a florecer y liberarnos de la 💩
-				que nos embarga en la semana.
+			<p class="mt-4">
+				Es de conocimiento popular que nuestro rito ceremonial de catarsis semanal, es una actividad que si bien amamos, puede alterar el normal vivir de quienes nos rodean. ¡Que ganas de que todos lo vivieran como nosotros! 🔥
 			</p>
-
-			<h2 class="text-lg font-bold mb-4 underline text-green-400">Ubicación y horarios:</h2>
-			<p>¿Donde? en la Bóveda Secreta - San Antonio #705</p>
-			<p>Apertura de puertas: 19:15 hrs.</p>
-			<p>Inicio de evento: 20:00 hrs.</p>
-			<Important />
-			<h2 class="text-lg font-bold mb-4 underline text-green-400">Adquiere tu entradas:</h2>
-			<p class=" text-red-500">Entradas agotadas</p>
-			<!-- <div class="flex gap-3 flex-col md:flex-row">
-			</div> -->
-		</div>
+			<p class="mt-4">
+				Por lo mismo y por "motivos de fuerza mayor" nos vemos en la lamentable necesidad de cancelar nuestra presentación anunciada para el día Jueves 15 de Septiembre.😞
+			</p>
+			<p class="mt-4">
+				Continuaremos con nuestro trabajo desde otra trinchera. Tenemos mucho que aprender aún, y por lo mismo, esperamos tener noticias positivas cuanto antes para seguir con la lucha que nos llena cada semana.
+			</p>
+			<p class="mt-4 text-primary p-3 border">
+				Nos contactaremos para realizar la devolución de las entradas respectivas.
+			</p>
+			<p class="mt-4">
+				Muchas gracias a todos quienes hacen realidad esta locura.
+				<span class="underline decoration-primary decoration-2">¡Siempre buena onda!</span> ✌️
+			</p>
 	</div>
 </div>
