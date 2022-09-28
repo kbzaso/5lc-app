@@ -27,15 +27,15 @@ const config = {
 		themes: [
 			{
 				mytheme: {
-					primary: '#fde047',
-					secondary: '#fdba74',
-					accent: '#f3f4f6',
-					neutral: '#1f2937',
+					primary: '#facc15',
+					secondary: '#f43f5e',
+					accent: '#2dd4bf',
+					neutral: '#4b5563',
 					'base-100': '#000',
 					info: '#3ABFF8',
-					success: '#2dd4bf',
-					warning: '#fb923c',
-					error: '#e11d48'
+					success: '#36D399',
+					warning: '#FBBD23',
+					error: '#F87272'
 				}
 			}
 		],
