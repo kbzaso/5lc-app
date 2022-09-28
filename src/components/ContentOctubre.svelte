@@ -1,3 +1,6 @@
+<script>
+  import Important from "./Important.svelte";
+</script>
 
 <div id="octubre" class="relative">
     <div class="lg:absolute lg:inset-0">
@@ -34,6 +37,7 @@
               <a href="/octubrerojo" class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-rose-600 md:py-4 md:px-10 md:text-lg">General</a>
             </div> -->
           </div>
+          <Important></Important>
         </div>
       </div>
     </div>
