@@ -26,16 +26,15 @@
           </div>
           <div class="mt-10 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="https://www.flow.cl/btn.php?token=eaieriv" class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-rose-600 md:py-4 md:px-10 md:text-lg">Preventa General</a>
+              <a  class="flex w-full items-center justify-center rounded-md border border-transparent bg-neutral opacity-50 px-8 py-3 text-base font-medium text-white md:py-4 md:px-10 md:text-lg">Preventa General</a>
               <p class="mt-2 text-center text-sm text-gray-500 leading-4">Valor:$10.000.-</p>
             </div>
             <div class="rounded-md shadow">
-              <a class="flex w-full items-center justify-center rounded-md border border-transparent bg-neutral opacity-50 px-8 py-3 text-base font-medium text-white md:py-4 md:px-10 md:text-lg">General</a>
+              <a href="https://www.flow.cl/app/web/pagarBtnPago.php?token=myaum5x" class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-rose-600 md:py-4 md:px-10 md:text-lg">General</a>
               <p class="mt-2 text-center text-sm text-gray-500 leading-4">Valor:$13.000.-</p>
             </div>
-            <!-- <div class="rounded-md shadow">
-              <a href="/octubrerojo" class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-rose-600 md:py-4 md:px-10 md:text-lg">General</a>
-            </div> -->
+
+
           </div>
           <Important></Important>
         </div>
