@@ -19,7 +19,7 @@
       </ul>
     </div>
     <div class="navbar-end gap-4">
-      <a href="#octubre" class="btn btn-secondary">Octubre Rojo</a>
+      <a href="/#octubre" class="btn btn-secondary">Octubre Rojo</a>
       <a data-tally-open="31AeNQ" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" class="btn btn-primary hidden md:flex">Contacto</a>
     </div>
   </div>
