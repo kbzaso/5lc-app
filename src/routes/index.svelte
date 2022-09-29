@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>5LC - Bóveda 3.0</title>
+	<title>5 Luchas Clandestino - Lucha Libre Chilena</title>
 </svelte:head>
 
 <div>
