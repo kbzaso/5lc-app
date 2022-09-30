@@ -1,4 +1,5 @@
 <script>
+  import Timer from "./Timer.svelte";
   export let title = '';
   export let subtitle = '';
   export let description = '';
@@ -12,6 +13,7 @@
         <span class="block text-primary xl:inline">{subtitle}</span>
       </h1>
       <p class="mx-auto mt-3 max-w-md text-lg text-gray-300 sm:text-xl md:mt-5 md:max-w-3xl">{description}</p>
+      <Timer></Timer>
       <!-- <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div class="rounded-md shadow">
           <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-8 py-3 text-base font-medium text-black hover:bg-yellow-300 md:py-4 md:px-10 md:text-lg">Get started</a>

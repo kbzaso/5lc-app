@@ -38,6 +38,5 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-confetti-explosion": "^0.2.0"
 	}
 }
