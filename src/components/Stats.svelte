@@ -14,7 +14,7 @@
   
       <div class="overflow-hidden rounded-lg bg-black px-4 py-5 shadow sm:p-6">
         <dt class="truncate text-sm font-medium text-white">Mala vibra eliminada</dt>
-        <dd class="mt-1 text-3xl font-semibold tracking-tight text-primary">+400.000.000(J)</dd>
+        <dd class="mt-1 text-3xl font-semibold tracking-tight text-primary truncate after:content-['(J)']">+400.000.000</dd>
       </div>
     </dl>
   </div>
