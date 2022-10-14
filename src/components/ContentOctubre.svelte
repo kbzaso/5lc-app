@@ -24,17 +24,24 @@
               <li>Barrio Bellavista</li>
             </ul>
           </div>
+
           <div class="mt-10 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
               <button class="flex w-full items-center justify-center rounded-md border border-transparent bg-neutral opacity-30 px-8 py-3 text-base font-medium text-white md:py-4 md:px-10 md:text-lg line-through cursor-not-allowed">Preventa General</button>
               <p class="mt-2 text-center text-sm line-through text-gray-500 leading-4">Valor:$10.000.-</p>
             </div>
             <div class="rounded-md shadow">
-              <a href="https://www.flow.cl/app/web/pagarBtnPago.php?token=myaum5x" class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-rose-600 md:py-4 md:px-10 md:text-lg">General</a>
-              <p class="mt-2 text-center text-sm text-gray-500 leading-4">Valor:$13.000.-</p>
+              <button class="flex w-full items-center justify-center rounded-md border border-transparent bg-neutral opacity-30 px-8 py-3 text-base font-medium text-white md:py-4 md:px-10 md:text-lg line-through cursor-not-allowed">General</button>
+              <p class="mt-2 text-center text-sm text-gray-500 leading-4 line-through">Valor:$13.000.-</p>
             </div>
-
-
+          </div>
+          <div class="alert alert-error shadow-lg my-6">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 fill-black">
+                <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+              </svg>            
+              <span>Entradas agotadas</span>
+            </div>
           </div>
           <Important></Important>
         </div>
