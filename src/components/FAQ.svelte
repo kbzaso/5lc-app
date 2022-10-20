@@ -2,7 +2,7 @@
     import FaqItem from "./FAQItem.svelte";
 </script>
 
-<div class="my-10 w-full lg:w-5/12 mx-auto">
+<div id="faq" class="my-10 w-full lg:w-5/12 mx-auto">
     <h2 class="font-semibold leading-6 text-secondary uppercase text-center">Preguntas frecuentes</h2>
     <FaqItem title='¿Cómo llego a Sala Metrónomo?' body='Si vas a pie, la estación de metro más cercana es Baquedano, que queda a 10 minutos caminando. Otra opcion es desde metro patronato y por santa filomena hasta llegar a la calle Ernesto pinto lagarribe.' />
     <FaqItem title='¿Hay estacionamientos?' body='No, pero la zona cuenta con varias opciones de estacionamientos, tanto en calle como en recintos privados.' />

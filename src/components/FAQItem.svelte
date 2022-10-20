@@ -5,7 +5,7 @@
 <div class="collapse">
     <input type="checkbox" /> 
     <div class="collapse-title text-xl font-medium text-center">
-        {title}
+      <h4 class=" underline underline-offset-2">{title}</h4>
     </div>
     <div class="collapse-content"> 
       <p>{body}</p>
