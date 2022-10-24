@@ -1,9 +1,5 @@
 <script>
 	import Hero from '../components/Hero.svelte';
-	import ContentOctubre from '../components/ContentOctubre.svelte';
-	import Stats from '../components/Stats.svelte';
-	import Carrusel from '../components/Carrusel.svelte';
-	import FAQ from '../components/FAQ.svelte';
 </script>
 
 <svelte:head>
@@ -12,9 +8,5 @@
 
 <div>
 	<Hero title='¡Siempre buena onda!' subtitle='¡Vive la experiencia!' description='5 Luchas Clandestino, es un equipo humano que ve el espectáculo de la lucha libre como una herramienta de expresión creativa, enfocados en liberar el peso de la vida cotidiana de nuestra comunidad y audiencia, en una atmósfera de bohemia y sana convivencia.'></Hero>
-	<Stats />
-	<Carrusel/>
-	<ContentOctubre />
-	<FAQ/>
 	<script async src="https://tally.so/widgets/embed.js"></script>
 </div>
