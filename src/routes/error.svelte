@@ -31,8 +31,8 @@
 			nuevamente.
 		</p>
 	</div>
-	<div class="flex flex-col">
-		<a href="https://www.flow.cl/app/web/pagarBtnPago.php?token=myaum5x" class="btn btn-secondary">General</a>
-		<p class="mt-2 text-center text-sm text-gray-500 leading-4">Valor:$13.000.-</p>
-	</div>
+	<div class="rounded-md ">
+		<button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=coxu7gz'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg ">General</button>
+		<p class="mt-2 text-center text-sm text-gray-300 leading-4">Valor:$10.000.-</p>
+	  </div>
 </div>

@@ -15,6 +15,6 @@
     </div>
   </div>
   <div class="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
-    <img class="absolute inset-0 h-full w-full object-cover" src="/hero-image.jpg" alt="">
+    <img class="absolute inset-0 h-full w-full object-cover" src="https://res.cloudinary.com/dtj5xnlou/image/upload/v1671485780/5LC/hero-image.jpg" alt="Evento de lucha libre con un cuadrilatero en el centro">
   </div>
 </main>

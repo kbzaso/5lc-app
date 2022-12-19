@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	<div class="text-center">
-		<h1 class="mb-2 text-secondary text-4xl font-bold">Nos vemos en Octubre Rojo, Sala Metrónomo.</h1>
+		<h1 class="mb-2 text-primary text-4xl font-bold">¡Nos vemos en la Bóveda Secreta!</h1>
 	</div>
 	<div class="p-6 prose prose-p:text-lg prose-p:text-center">
 		<Important />
