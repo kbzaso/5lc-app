@@ -15,7 +15,7 @@
           <h3 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">40 grados (+18)</h3>
           <div class="prose prose-indigo mt-5 text-gray-100">
             <p class="text-primary uppercase tracking-widest">¡¡Último día nadie se enoja!!</p>
-            <p>Ven a despedir el año a la bóveda secreta y cagate de calor con nosotros 🖤🎉</p>
+            <p>Ven a despedir el año en la bóveda secreta y cágate de calor con nosotros en el último show del año. 🖤🎉🥵</p>
             <ul>
               <li>Viernes 30 de Diciembre </li>
               <li>19:15 Hrs. → Apertura de puertas</li>
