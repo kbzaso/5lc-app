@@ -2,7 +2,7 @@
   import Important from "./Important.svelte";
 </script>
 
-<div id="ultimo" class="relative flex lg:flex-col flex-col-reverse">
+<div id="ultimo" class="relative flex flex-col">
     <div class="lg:absolute lg:inset-0">
       <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
         <img class="h-56 w-full object-cover lg:absolute lg:h-full" loading="lazy" src="https://res.cloudinary.com/dtj5xnlou/image/upload/v1672929041/5LC/afiche-verano.jpg" alt="Boveda Secreta">
@@ -25,14 +25,14 @@
             </ul>
             <Important></Important>
             <p class=" border border-dashed border-primary p-4 text-yellow-400">
-              La Bóveda Secreta se encuentra en el 3er piso de la Galería “Nueva Copacabana” ubicada en calle San Antonio #705, Santiago Centro. Las estaciones de Metro más cercanas a ella son <span class="underline underline-offset-2 decoration-wavy decoration-yellow-400">Plaza de Armas</span>, <span class="underline underline-offset-2 decoration-wavy decoration-yellow-400">Bellas Artes</span> y <span class="underline underline-offset-2 decoration-wavy decoration-yellow-400">Puente Cal y Canto</span>. 
+              La Bóveda Secreta se encuentra en el 3er piso de la Galería “Nueva Copacabana” ubicada en calle San Antonio #705, Santiago Centro. Las estaciones de Metro más cercanas a ella son <span class="underline underline-offset-2 decoration-wavy decoration-primary">Plaza de Armas</span>, <span class="underline underline-offset-2 decoration-wavy decoration-primary">Bellas Artes</span> y <span class="underline underline-offset-2 decoration-wavy decoration-primary">Puente Cal y Canto</span>. 
           </p>
           
           </div>
 
           <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md w-full">
-              <button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=ablxw61'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-400 px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg hover:bg-yellow-500">Entrada General</button>
+              <button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=ablxw61'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-400 px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg hover:bg-yellow-600">Entrada General</button>
               <p class="mt-2 text-center text-sm text-gray-300 leading-4">Valor:$8.000.-</p>
             </div>
             <!-- <div class="rounded-md ">

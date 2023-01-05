@@ -4,7 +4,7 @@
   export let description = '';
 </script>
 
-<main class="lg:relative">
+<main class="lg:relative flex flex-col-reverse lg:flex-row">
   <div class="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
     <div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
       <h1 class="text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
