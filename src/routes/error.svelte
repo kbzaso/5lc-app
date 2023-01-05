@@ -19,9 +19,6 @@
 			<span>Ups! Ocurrio un error!</span>
 		</div>
 	</div>
-	<div class="flex justify-center mb-6">
-		<img class="w-28" src="/logo.png" alt="Logotipo de 5 Luchas Clandestino" />
-	</div>
 	<div class="text-center">
 		<h1 class="mb-2 text-primary text-4xl font-bold">Te invitamos intentarlo una vez más 🙏</h1>
 	</div>
@@ -32,7 +29,7 @@
 		</p>
 	</div>
 	<div class="rounded-md ">
-		<button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=coxu7gz'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg ">General</button>
-		<p class="mt-2 text-center text-sm text-gray-300 leading-4">Valor:$7.000.-</p>
+		<button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=ablxw61'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
+		<p class="mt-2 text-center text-sm text-gray-300 leading-4">Valor:$8.000.-</p>
 	  </div>
 </div>
