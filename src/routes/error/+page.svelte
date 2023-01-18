@@ -29,7 +29,7 @@
 		</p>
 	</div>
 	<div class="rounded-md ">
-		<button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=cngnpfk'} class="flex w-full items-center rounded-none active:bg-green-400 hover:bg-purple-500 hover:text-white justify-center border border-transparent bg-yellow-400 px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
-		<p class="mt-2 text-center text-sm text-gray-300/50 leading-4">Valor:$8.000.-</p>
+		<button on:click={() => location.href = 'https://www.flow.cl/app/web/pagarBtnPago.php?token=ablxw61'} class="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
+		<p class="mt-2 text-center text-sm text-gray-300 leading-4">Valor:$8.000.-</p>
 	  </div>
 </div>
