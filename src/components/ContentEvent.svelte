@@ -2,16 +2,17 @@
   import Important from "./Important.svelte";
 
   const event = {
-    title: 'Yo soy LUCHA LIBRE',
-    info: 'Cerramos Enero en la Bóveda Secreta, orgullosos de formar parte de esta locura.🤪 Súmate, libérate y grita con nosotros ¡Yo soy Lucha Libre!👊🍻',
-    img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1674081150/5LC/poster.jpg',
-    date: '📅 Viernes 27 de Enero',
-    ticket: 'https://www.flow.cl/app/web/pagarBtnPago.php?token=cngnpfk',
+    title: 'Friday te amo',
+    pretitle: "I don't care if Monday's black Tuesday, Wednesday, heart attack Thursday, never looking back It's Friday, I'm in love",
+    info: 'Ven a vivir la experiencia de la Bóveda Secreta con la mejor música de los 80s y 90s.',
+    img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1676035826/5LC/friday_te_amo.jpg',
+    date: '📅 Viernes 17 de Febrero',
+    ticket: 'https://www.flow.cl/btn.php?token=cngnpfk',
   }
 
 </script>
 
-<div id="ultimo" class="relative flex flex-col">
+<div id="friday" class="relative flex flex-col">
     <div class="lg:absolute lg:inset-0">
       <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
         <img class="h-56 w-full object-cover lg:absolute lg:h-full" loading="lazy" src={event.img} alt="Boveda Secreta">
@@ -24,6 +25,8 @@
           <h3 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">{event.title} (+18)</h3>
           <div class="prose prose-indigo mt-5 text-gray-100">
             <!-- <p class="text-primary uppercase tracking-widest">¡¡Último día nadie se enoja!!</p> -->
+            <p class="whitespace-pre-wrap w-2/4 ">"{event.pretitle}"</p>
+            <p class="text-sm tracking-widest uppercase">The Cure - Friday I'm In Love 🎤</p>
             <p>{event.info}</p>
             <ul>
               <li>{event.date}</li>
@@ -38,7 +41,7 @@
           
           </div>
 
-          <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
+          <!-- <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
@@ -46,7 +49,7 @@
                       
               <span class="uppercase tracking-widest">Entradas agotadas</span>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="alert alert-success shadow-lg flex justify-center rounded-none mt-4">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -55,14 +58,14 @@
                       
               <span class="uppercase tracking-widest">Habilitamos 10 cupos más</span>
             </div>
-          </div>
+          </div> -->
 
           <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md w-full">
-              <button on:click={() => location.href = event.ticket} class="flex w-full items-center rounded-none active:bg-green-400 hover:bg-purple-500 hover:text-white justify-center border border-transparent bg-yellow-400 px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
+              <button on:click={() => location.href = event.ticket} class="flex w-full items-center rounded-none hover:bg-green-400 hover:text-white justify-center border border-transparent bg-yellow-400 uppercase tracking-widest px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
               <p class="mt-2 text-center text-sm text-gray-300/50 leading-4">Valor:$8.000.-</p>
             </div>
-          </div> -->
+          </div>
           
         </div>
       </div>
