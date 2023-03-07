@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="w-full md:w-9/12 lg:w-6/12 m-auto mt-0 md:my-10">
-	<div class="mb-6 alert alert-success shadow-lg rounded-md">
+	<div class="mb-6 alert alert-success shadow-lg rounded-none py-4">
 		<div>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

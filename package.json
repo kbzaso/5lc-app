@@ -38,6 +38,5 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-device-detector": "^0.2.2"
 	}
 }
