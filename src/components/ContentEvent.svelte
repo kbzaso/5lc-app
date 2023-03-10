@@ -41,7 +41,7 @@
           
           </div>
 
-          <!-- <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
+          <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
@@ -49,7 +49,7 @@
                       
               <span class="uppercase tracking-widest">Adhesión agotadas</span>
             </div>
-          </div> -->
+          </div>
 
           <!-- <div class="alert alert-success shadow-lg flex justify-center rounded-none mt-4">
             <div>
@@ -61,12 +61,12 @@
             </div>
           </div> -->
 
-          <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
+          <!-- <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md w-full">
               <button on:click={() => location.href = event.ticket} class="flex w-full items-center rounded-none hover:bg-cyan-500 hover:text-white justify-center border border-transparent bg-yellow-400 uppercase tracking-widest px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
               <p class="mt-2 text-center text-sm text-gray-300/50 leading-4">Valor:$8.800.-</p>
             </div>
-          </div>
+          </div> -->
           
         </div>
       </div>
