@@ -2,11 +2,12 @@
   import Important from "./Important.svelte";
 
   const event = {
-    title: 'Viernes de marzo por la noche',
+    title: 'Viernes de marzo por la noche 2',
     pretitle: "No te quedes fuera de esta gran experiencia.",
-    info: "¡Estás invitado a un evento con la más fina selección musical de los 70's! Acompáñanos en una noche llena de emoción y buena onda mientras te transportamos de regreso en el tiempo con los éxitos más emblemáticos de la década.",
-    img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/q_auto:low/v1678201533/5LC/Marzo_1080x1345.avif',
-    date: '📅 Viernes 10 de Marzo',
+    info: '🌃 Cae más temprano la noche 🌕 y en la Bóveda aprovechamos lo oscurito para fondearnos de la realidad, entre buena música, buen webeo y combates a la altura. 🔥',
+    img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/q_auto:eco/v1678739991/5LC/Marzo_1080x1345_2.avif',
+    info_dos: 'El Viernes 24 de Marzo, volvemos a invocar el groove de la música de los 70’s en una jornada más de “Viernes de Marzo por la noche”… MOTÍVATE, premio sorpresa a sortear para quien se sume a la temática 70’s Disco Groove Boogie Dance 🕺💃',
+    date: '📅 Viernes 24 de Marzo',
     ticket: 'https://www.flow.cl/btn.php?token=au5yr2y',
   }
 
@@ -27,12 +28,13 @@
             <!-- <p class="text-primary uppercase tracking-widest">¡¡Último día nadie se enoja!!</p> -->
             <!-- <p class="text-sm tracking-widest uppercase">The Cure - Friday I'm In Love 🎤</p> -->
             <p>{event.info}</p>
+            <p>{event.info_dos}</p>
             <p>{event.pretitle}</p>
             <ul>
               <li>{event.date}</li>
               <li>19:15 Hrs. → Apertura de puertas</li>
               <li>20:00 Hrs. → Inicio show</li>
-              <li>Bóveda Secreta - <a class="text-primary" target="_blank" href="https://goo.gl/maps/85ZfvTdLAoDpt9xr9"> San Antonio 705, Santiago, Región Metropolitana</a></li>
+              <li>Bóveda Secreta - <a class="text-primary" target="_blank" rel="noreferrer" href="https://goo.gl/maps/85ZfvTdLAoDpt9xr9"> San Antonio 705, Santiago, Región Metropolitana</a></li>
             </ul>
             <Important></Important>
             <p class=" border border-dashed border-primary p-4">
@@ -41,7 +43,7 @@
           
           </div>
 
-          <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
+          <!-- <div class="alert alert-error shadow-lg flex justify-center rounded-none mt-4">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
@@ -49,7 +51,7 @@
                       
               <span class="uppercase tracking-widest">Adhesión agotadas</span>
             </div>
-          </div>
+          </div> -->
 
           <!-- <div class="alert alert-success shadow-lg flex justify-center rounded-none mt-4">
             <div>
@@ -61,12 +63,12 @@
             </div>
           </div> -->
 
-          <!-- <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
+          <div class="mt-4 gap-4 flex flex-col md:flex-row sm:justify-center lg:justify-start">
             <div class="rounded-md w-full">
               <button on:click={() => location.href = event.ticket} class="flex w-full items-center rounded-none hover:bg-cyan-500 hover:text-white justify-center border border-transparent bg-yellow-400 uppercase tracking-widest px-8 py-3 text-base font-medium text-black md:py-4 md:px-10 md:text-lg">Entrada General</button>
               <p class="mt-2 text-center text-sm text-gray-300/50 leading-4">Valor:$8.800.-</p>
             </div>
-          </div> -->
+          </div>
           
         </div>
       </div>
